@@ -17,7 +17,7 @@ class Savage
       if @cauldron.portions > 0
         sleep(3)
         @cauldron.take_portion
-        puts "\u001B[33mSavage #{@id} está comendo uma porção. Restam #{@cauldron.portions} porções.\u001B[33m"
+        puts "\u001B[33mSelvagem #{@id} está comendo uma porção. Restam #{@cauldron.portions} porções.\u001B[33m"
       end
     end
   end
