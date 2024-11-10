@@ -1,0 +1,11 @@
+# Directory files
+bin/
+obj/
+
+# Configs for Visual Studio
+*.nupkg
+*.snupkg
+.nuget/
+
+# Logs
+*.log
